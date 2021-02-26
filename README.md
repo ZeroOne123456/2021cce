@@ -67,3 +67,27 @@ int main()
 	else printf("F\n");
 }
 ```
+
+## 第五題
+
+![5]
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a,b,ans,temp;
+    scanf("%d%d",&a,&b);
+    if( b>a ) temp=a;
+    else      temp=b;
+    for( int i=1;i<=temp;i++ ){
+        if( a%i==0&&b%i==0 ){
+            ans=i;
+        }
+    }
+    printf("%d\n",a/ans);
+    printf("---------\n");
+    printf("%d\n",b/ans);
+}
+
+```
