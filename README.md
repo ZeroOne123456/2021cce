@@ -53,7 +53,7 @@ int main()
 
 ## 第四題
 
-![4]
+![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/4.png?raw=true)
 
 ```c
 #include <stdio.h>
