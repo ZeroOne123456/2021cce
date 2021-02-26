@@ -70,7 +70,7 @@ int main()
 
 ## 第五題
 
-![5]
+![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/5.png)
 
 ```c
 #include <stdio.h>
