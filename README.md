@@ -15,7 +15,7 @@ int main()
 ```
 ## 第二題
 
-![2]
+![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/2.png)
 
 ```c
 #include <stdio.h>
