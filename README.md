@@ -33,7 +33,7 @@ int main()
 
 ## 第三題
 
-![3]
+![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/3.png)
 
 ```c
 #include <stdio.h>
