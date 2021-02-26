@@ -2,7 +2,7 @@
 程設
 ## 第一題
 
-
+![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/1.png?raw=true)
 
 ```c
 #include <stdio.h>
@@ -13,4 +13,4 @@ int main()
 	printf("%d=50*%d+5*%d+1*%d\n",n,n/50,n%50/5,n%50%5);
 }
 ```
-1
+
