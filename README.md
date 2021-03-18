@@ -233,7 +233,7 @@ int main()
 
 ## 第一題
 
-![1]()
+![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-1.png?raw=true)
 
 ```c
 #include <stdio.h>
@@ -253,7 +253,7 @@ int main()
 
 ## 第二題
 
-![2]()
+![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-2.png?raw=true)
 
 ```c
 #include <stdio.h>
@@ -281,7 +281,7 @@ int main()
 
 ## 第三題
 
-![3]()
+![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-3.png?raw=true)
 
 ```c
 #include <stdio.h>
@@ -297,7 +297,7 @@ int main()
 
 ## 第四題
 
-![4]()
+![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-4.png?raw=true)
 
 ```c
 #include <stdio.h>
@@ -314,7 +314,7 @@ int main()
 
 ## 第五題
 
-![5]()
+![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-5.png?raw=true)
 
 ```c
 #include <stdio.h>
@@ -336,7 +336,7 @@ int main()
 
 ## 第六題
 
-![6]()
+![6](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-6.png?raw=true)
 
 ```c
 #include <stdio.h>
