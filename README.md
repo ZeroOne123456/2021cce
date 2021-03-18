@@ -228,3 +228,131 @@ int main()
 	printf("前標:%.1f\n",sum2);
 }
  ```
+
+# 第三週
+
+## 第一題
+
+![1]()
+
+```c
+#include <stdio.h>
+int U[100];
+int main()
+{
+	int N;
+	scanf("%d",&N);
+	for( int i=0;i<N;i++ ){
+		scanf("%d",&U[i]);
+		printf("%d,",U[i]*U[i]);
+	}
+	printf("\n");
+}
+```
+
+
+## 第二題
+
+![2]()
+
+```c
+#include <stdio.h>
+int main()
+{
+	char c[10];
+	scanf("%s",&c);
+	int i=0;
+	while( c[i]!='\0' )
+	{
+		if( 'A'<=c[i]&&c[i]<='Z' ){
+			printf("%c",c[i]-'A'+'a');
+		}
+		else if( 'a'<=c[i]&&c[i]<='z' ){
+			printf("%c",c[i]-'a'+'A');
+		}
+		else printf("%c",c[i]);
+
+		i++;
+	}
+	printf("\n");
+}
+```
+
+
+## 第三題
+
+![3]()
+
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	printf("%d ",n/7);
+	printf("%d\n",n%7);
+}
+```
+
+
+## 第四題
+
+![4]()
+
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	if( n<=2000 ) printf("%d\n",100);
+	else if( (n-2000)%500==0 ) printf("%d\n",100+(n-2000)/500*5);
+	else if( (n-2000)%500!=0 ) printf("%d\n",100+((n-2000)/500+1)*5);
+}
+```
+
+
+## 第五題
+
+![5]()
+
+```c
+#include <stdio.h>
+int main()
+{
+	int n,m,tamp=0;
+	scanf("%d%d",&n,&m);
+	if( n>m ) {
+		tamp=n;
+		n=m;
+		m=tamp;
+	}
+	for( int i=n;i<=m;i++ ){
+		if( i%5==0 ) printf("%d\n",i);
+	}
+}
+```
+
+
+## 第六題
+
+![6]()
+
+```c
+#include <stdio.h>
+int a[100];
+int main()
+{
+	int min,max;
+	for( int i=0;i<3;i++ ){
+		scanf("%d",&a[i]);
+		min=a[0];
+		max=a[0];
+		for( int i=0;i<3;i++ ){
+			if( min>a[i] ) min=a[i];
+			if( max<a[i] ) max=a[i];
+		}
+	}
+	printf("%d\n",max-min);
+}
+```
