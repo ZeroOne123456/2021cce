@@ -357,10 +357,10 @@ int main()
 }
 ```
 
-![1]()
+![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week3-1.png?raw=true)
 
-![2]()
+![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week3-2.png?raw=true)
 
-![3]()
+![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week3-3.png?raw=true)
 
-![4]()
+![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week3-4.png?raw=true)
