@@ -4,7 +4,7 @@
 
 ## 第一題
 
-![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/1.png?raw=true)
+![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week01/1.png)
 
 ```c
 #include <stdio.h>
@@ -17,7 +17,7 @@ int main()
 ```
 ## 第二題
 
-![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/2.png)
+![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week01/2.png)
 
 ```c
 #include <stdio.h>
@@ -35,7 +35,7 @@ int main()
 
 ## 第三題
 
-![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/3.png)
+![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week01/3.png)
 
 ```c
 #include <stdio.h>
@@ -55,7 +55,7 @@ int main()
 
 ## 第四題
 
-![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/4.png?raw=true)
+![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week01/4.png?raw=true)
 
 ```c
 #include <stdio.h>
@@ -72,7 +72,7 @@ int main()
 
 ## 第五題
 
-![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/5.png)
+![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week01/5.png)
 
 ```c
 #include <stdio.h>
@@ -98,7 +98,7 @@ int main()
  
  ## 第一題
  
- ![1](https://github.com/ZeroOne123456/2021cce/blob/7c1eaa20fbf5c212be3097be1a619a27ab0da026/HW%201.png)
+ ![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week02/HW%201.png)
  
  ```c
  #include <stdio.h>
@@ -122,7 +122,7 @@ int main()
  
  ## 第二題
  
- ![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/HW%20%202.png?raw=true)
+ ![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week02/HW%20%202.png)
  
  ```c
 #include <stdio.h>
