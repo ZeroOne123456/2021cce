@@ -145,7 +145,7 @@ int main(void)
  
  ## 第三題
  
- ![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/HW%20%203.png?raw=true)
+ ![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week02/HW%20%203.png)
  
  ```c
  #include <stdio.h>
@@ -163,7 +163,7 @@ int main()
  
  ## 第四題
  
- ![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/HW%20%204.png?raw=true)
+ ![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week02/HW%20%204.png)
  
  ```c
  #include <stdio.h>
@@ -179,7 +179,7 @@ int main()
  
  ## 第五題
  
- ![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/HW%20%205.png?raw=true)
+ ![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week02/HW%20%205.png)
  
  ```c
  #include <stdio.h>
@@ -198,7 +198,7 @@ int main()
  
  ## 第六題
  
- ![6](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/HW%20%206.png?raw=true)
+ ![6](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week02/HW%20%206.png)
  
  ```c
  #include <stdio.h>
@@ -233,7 +233,7 @@ int main()
 
 ## 第一題
 
-![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-1.png?raw=true)
+![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week03-1.png)
 
 ```c
 #include <stdio.h>
@@ -253,7 +253,7 @@ int main()
 
 ## 第二題
 
-![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-2.png?raw=true)
+![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week03-2.png)
 
 ```c
 #include <stdio.h>
@@ -281,7 +281,7 @@ int main()
 
 ## 第三題
 
-![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-3.png?raw=true)
+![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week03-3.png)
 
 ```c
 #include <stdio.h>
@@ -297,7 +297,7 @@ int main()
 
 ## 第四題
 
-![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-4.png?raw=true)
+![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week03-4.png)
 
 ```c
 #include <stdio.h>
@@ -314,7 +314,7 @@ int main()
 
 ## 第五題
 
-![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-5.png?raw=true)
+![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week03-5.png)
 
 ```c
 #include <stdio.h>
@@ -336,7 +336,7 @@ int main()
 
 ## 第六題
 
-![6](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03-6.png?raw=true)
+![6](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week03-6.png)
 
 ```c
 #include <stdio.h>
@@ -357,10 +357,10 @@ int main()
 }
 ```
 
-![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week3-1.png?raw=true)
+![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week3-1.png)
 
-![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week3-2.png?raw=true)
+![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week3-2.png)
 
-![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week3-3.png?raw=true)
+![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week3-3.png)
 
-![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week3-4.png?raw=true)
+![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week3-4.png)
