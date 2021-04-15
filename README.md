@@ -238,3 +238,157 @@ int main()
 ![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week3-3.png)
 
 ![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week03/week3-4.png)
+
+#第七週
+
+![1]()
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	int a = n/100 , b = n%100;
+	if( a==b%10*10+b/10 ) printf("YES\n");
+	else  printf("NO\n");
+}
+```
+
+![2]()
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	int a=0;
+	while( n!=0 ){
+		a=a*10+n%10;
+		n/=10;
+	}
+	printf("%d\n",a);
+}
+```
+
+![3]()
+```c
+#include <stdio.h>
+int a[10];
+int main()
+{
+	for( int i=0;i<10;i++ ){
+		scanf("%d",&a[i]);
+		if( a[i]==0 ){
+			break;
+		}
+	}
+	
+	int n,ans=0;
+	scanf("%d",&n);
+	
+	for( int i=0;i<10;i++ ){
+		if( a[i]==n ){
+			ans+=1;
+		}
+	}
+	
+	printf("%d\n",ans);
+}
+```
+
+![4]()
+```c
+#include <stdio.h>
+int f(int a,int b){
+	if( a>b ) return 1;
+	else if(a==b) return 0;
+	else if( a<b ) return- 1;
+}
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d",f(a,b));
+    return 0;
+}
+```
+
+![5]()
+```c
+#include <stdio.h>
+int a[50];
+int main()
+{
+	for( int i=0;i<100;i++ ){
+		scanf("%d",&a[i]);
+		printf("Enter an integer ( 999 to end ): \n");
+		if( a[i]==999 ){
+			break;
+		}
+	}
+	int ans=0;
+	for( int i=0;i<100;i++ ){
+		if( a[i]==999 ){
+			break;
+		}
+		ans+=a[i];
+	}
+	printf("The total is: %d",ans);
+}
+```
+
+![6]()
+```c
+#include <stdio.h>
+int main()
+{
+	int n,m;
+	scanf("%d%d",&n,&m);
+	printf("%d",n%m);
+}
+```
+
+![7]()
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+
+	if(n>=90)  {printf("A");}
+	else if(n < 90 && n >= 80)  {printf("B");}
+	else if(n < 80 && n >= 70)  {printf("C");}
+	else if(n < 70 && n >= 60)  {printf("D");}
+	else  {printf("F");}
+}
+```
+
+![8]()
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	if( n<=1500 )  printf("100");
+	if( n>1500&&n%250!=0 ){
+		n=(n-1500)/250+1;
+		printf("%d",100+n*5);
+	}
+	if( n>1500&&n%250==0 ){
+		n=(n-1500)/250;
+		printf("%d",100+n*5);
+	}
+}
+```
+
+![9]()
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	printf("%d=50*%d+10*%d+5*%d+1*%d",n,n/50,n%50/10,n%50%10/5,n%50%10%5/1);
+}
+```
