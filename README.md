@@ -241,7 +241,7 @@ int main()
 
 #第七週
 
-![1]()
+![1](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-1.png )
 ```c
 #include <stdio.h>
 int main()
@@ -254,7 +254,7 @@ int main()
 }
 ```
 
-![2]()
+![2](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-2.png)
 ```c
 #include <stdio.h>
 int main()
@@ -270,7 +270,7 @@ int main()
 }
 ```
 
-![3]()
+![3](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-3.png)
 ```c
 #include <stdio.h>
 int a[10];
@@ -296,7 +296,7 @@ int main()
 }
 ```
 
-![4]()
+![4](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-4.png)
 ```c
 #include <stdio.h>
 int f(int a,int b){
@@ -312,7 +312,7 @@ int main(){
 }
 ```
 
-![5]()
+![5](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-5.png)
 ```c
 #include <stdio.h>
 int a[50];
@@ -336,7 +336,7 @@ int main()
 }
 ```
 
-![6]()
+![6](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-6.png)
 ```c
 #include <stdio.h>
 int main()
@@ -347,7 +347,7 @@ int main()
 }
 ```
 
-![7]()
+![7](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-7.png)
 ```c
 #include <stdio.h>
 int main()
@@ -363,7 +363,7 @@ int main()
 }
 ```
 
-![8]()
+![8](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-8.png)
 ```c
 #include <stdio.h>
 int main()
@@ -382,7 +382,7 @@ int main()
 }
 ```
 
-![9]()
+![9](https://github.com/ZeroOne123456/2021cce/blob/gh-pages/week07-9.png)
 ```c
 #include <stdio.h>
 int main()
