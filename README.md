@@ -419,18 +419,19 @@ int main()
 		
 		qsort(tree , N, 32, compare);//step05->照樹的名字排序
 		
+		if(t>0) printf("\n");//前面要空行
 		int ans=1;//新的開始
 		printf("%s ",tree[0]);
-		for( int i=0;i<N;i++ ){
+		for( int i=0;i<N-1;i++ ){
 			if( strcmp(tree[i],tree[i+1])==0 ){//相同
 				ans++;
 			}else{//不相同,收尾+新的開始
-				printf("%d\n", ans);//收尾
+				printf("%.4f\n", 100*ans/(float)N);//收尾
 				ans=1;//新的開始
 				printf("%s ", tree[i+1]);//新的開始
 			}
 		}
-		
+		printf("%.4f\n", 100*ans/(float)N);//最後收尾
 	}
 }
 ```
