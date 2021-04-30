@@ -416,14 +416,21 @@ int main()
 			strcpy(tree[N], line);   //step04->把樹的名字放到tree[i]裡
 			N++;   //step03->統計樹的資料
 		}
-		printf("有幾棵樹:%d\n", N);
 		
 		qsort(tree , N, 32, compare);//step05->照樹的名字排序
 		
+		int ans=1;//新的開始
+		printf("%s ",tree[0]);
 		for( int i=0;i<N;i++ ){
-			printf("%s\n",tree[i]);  //step04->把tree[i]印出來
+			if( strcmp(tree[i],tree[i+1])==0 ){//相同
+				ans++;
+			}else{//不相同,收尾+新的開始
+				printf("%d\n", ans);//收尾
+				ans=1;//新的開始
+				printf("%s ", tree[i+1]);//新的開始
+			}
 		}
-		printf("======分隔線=======\n");
+		
 	}
 }
 ```
