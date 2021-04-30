@@ -392,3 +392,38 @@ int main()
 	printf("%d=50*%d+10*%d+5*%d+1*%d",n,n/50,n%50/10,n%50%10/5,n%50%10%5/1);
 }
 ```
+
+# 第十週
+```c
+#include <stdio.h>
+#include <string.h>   //strcmp()、strcpy()
+#include <stdlib.h>   //qsort()
+char line[1000];
+char tree[1000000][32];
+int compare( const void * p1,const void * p2 ){
+	return strcmp( (char*)p1,(char*)p2 );
+}
+int main()
+{
+	int T;   //step01->讀資料
+	scanf("%d\n\n",&T);
+	
+	for(int t=0;t<T;t++){   //step01->讀資料、gets()讀一整行
+		int N=0;   //要知道有幾棵樹
+		while( gets(line)!=NULL ){   //step02->讀失敗會變NULL
+			if( strcmp(line,"")==0 ) break;   //空行也要離開
+			
+			strcpy(tree[N], line);   //step04->把樹的名字放到tree[i]裡
+			N++;   //step03->統計樹的資料
+		}
+		printf("有幾棵樹:%d\n", N);
+		
+		qsort(tree , N, 32, compare);//step05->照樹的名字排序
+		
+		for( int i=0;i<N;i++ ){
+			printf("%s\n",tree[i]);  //step04->把tree[i]印出來
+		}
+		printf("======分隔線=======\n");
+	}
+}
+```
